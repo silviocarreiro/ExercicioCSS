@@ -1,0 +1,46 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree';
+}
+
+p{
+    font-size: 16px;
+}
+
+.cartao{
+    background-color: hsl(0, 0%, 100%);
+    width: 28.5%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.conteudo{
+    margin: 6%;
+}
+
+.img-artigo{
+    text-align: center;
+}
+
+.img-artigo img{
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.rotulo-artigo {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.rotulo-artigo p{
+    padding: 7px;
+    margin: 0;
+}
+
+
+
+/* Estilo do rodape que ja foi dado */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
