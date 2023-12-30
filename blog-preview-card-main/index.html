@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Blog preview card</title>
 
@@ -21,20 +21,20 @@
     
     <div class="conteudo">
       <div class="rotulo-artigo">
-        <p>Learning</p>
+        <p class="menor">Learning</p>
       </div>
    
-      <p>Published 21 Dec 2023</p>
+      <p class="menor" id="data">Published 21 Dec 2023</p>
     
       <div>
-        HTML & CSS foundations
+        <h1>HTML & CSS foundations</h1>
     
-        <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        <p id="descricao">These languages are the backbone of every website, defining structure, content, and presentation.</p>
       </div>
   
-      <div>
+      <div class="autor">
         <img src="./assets/images/image-avatar.webp" alt="imagem de greg hooper, o criador do desafio">
-        Greg Hooper
+        <p class="menor">Greg Hooper</p>
       </div>
     </div>
 
@@ -43,7 +43,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Silvio Carreiro</a>.
+    Coded by <a href="https://github.com/silviocarreiro">Silvio Carreiro</a>.
   </div>
 </body>
 </html>
