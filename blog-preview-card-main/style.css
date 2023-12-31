@@ -68,16 +68,24 @@ h1{
     font-weight: 800;
 }
 
+#titulo-artigo:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.cartao:hover{
+    box-shadow: 12px 12px 0 rgba(0,0,0,1);
+}
+
 /* Estilo do rodape que ja foi dado */
 .attribution { 
     font-size: 11px; 
     text-align: center;
-    position: fixed; /* 'fixed' para manter a div fixa na tela */
-    bottom: 0; /* Posiciona a div no final da página */
-    left: 0; /* Opcional: para posicionar à esquerda da página */
-    right: 0; /* Opcional: para posicionar à direita da página */
-    width: 100%; /* Ocupa toda a largura da página */
-    background-color: #ffffff; /* Cor de fundo da div */
-    padding: 10px; /* Opcional: adicione algum espaçamento interno */
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    right: 0; 
+    width: 100%; 
+    background-color: #ffffff; 
+    padding: 10px; 
 }
 .attribution a { color: hsl(228, 45%, 44%); }
