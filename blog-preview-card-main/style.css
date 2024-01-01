@@ -1,6 +1,12 @@
 body{
     background-color: hsl(47, 88%, 63%);
     font-family: 'Figtree';
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Define a altura para ocupar a tela inteira verticalmente */
+    margin: 0; /* Remove as margens padrão do body */
 }
 
 p{
@@ -85,7 +91,7 @@ h1{
     left: 0;
     right: 0; 
     width: 100%; 
-    background-color: #ffffff; 
+    background-color: hsl(47, 88%, 63%); 
     padding: 10px; 
 }
 .attribution a { color: hsl(228, 45%, 44%); }
