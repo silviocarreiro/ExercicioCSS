@@ -6,6 +6,7 @@ body{
     margin: 0;
     background-color: hsl(47, 88%, 63%);
     font-family: 'Figtree';
+    font-size: 16px;
 }
 
 .cartao{
@@ -13,10 +14,17 @@ body{
     max-width: 21rem;
     padding: 1.5rem;
     box-sizing: inherit;
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 1.3rem;
+    box-shadow: 0.6rem 0.6rem hsl(0, 0%, 7%);
 }
 
 .imagem{
     width: fit-content;
+}
+
+.imagem img{
+    border-radius: 13px;
 }
 
 .conteudo{
