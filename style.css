@@ -7,6 +7,7 @@ body{
     background-color: hsl(47, 88%, 63%);
     font-family: 'Figtree';
     font-size: 16px;
+    color: hsl(0, 0%, 7%);
 }
 
 .cartao{
@@ -16,7 +17,7 @@ body{
     box-sizing: inherit;
     border: 1px solid hsl(0, 0%, 7%);
     border-radius: 1.3rem;
-    box-shadow: 0.6rem 0.6rem hsl(0, 0%, 7%);
+    box-shadow: 0.5rem 0.5rem hsl(0, 0%, 7%);
 }
 
 .imagem{
@@ -27,6 +28,7 @@ body{
     border-radius: 13px;
 }
 
-.conteudo{
-
+.topico {
+    font-weight: bold;
+    font-size: 14px;
 }
