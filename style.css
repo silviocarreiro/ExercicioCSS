@@ -10,25 +10,68 @@ body{
     color: hsl(0, 0%, 7%);
 }
 
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+}
+
 .cartao{
     background-color:  hsl(0, 0%, 100%);
-    max-width: 21rem;
+    max-width: 20.8rem;
     padding: 1.5rem;
     box-sizing: inherit;
     border: 1px solid hsl(0, 0%, 7%);
     border-radius: 1.3rem;
     box-shadow: 0.5rem 0.5rem hsl(0, 0%, 7%);
+    margin: 20px;
 }
 
-.imagem{
-    width: fit-content;
-}
 
 .imagem img{
-    border-radius: 13px;
+    border-radius: 11px;
+    width: 100%;
 }
 
-.topico {
+.conteudo{
+    margin: 23px 0;
+}
+
+.conteudo .topico {
     font-weight: bold;
     font-size: 14px;
+    display: inline-block;
+    margin: 0 0 12px 0;
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.38rem 0.75rem;
+    border-radius: 4px;
+}
+
+.conteudo .data {
+    font-size: 14px;
+    margin: 0 0 12px 0;
+    padding: 2px 0;
+}
+
+.conteudo h1{
+    margin: 0 0 12px 0;
+    padding: 3px 0;
+}
+
+.conteudo .descricao {
+    color: hsl(0, 0%, 50%);
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0 0 10px 0;
+}
+
+.autor {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.autor img{
+    height: 33px;
+    margin-right: 10px;
 }
