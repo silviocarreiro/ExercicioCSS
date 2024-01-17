@@ -24,6 +24,17 @@ a {
     border-radius: 1.3rem;
     box-shadow: 0.5rem 0.5rem hsl(0, 0%, 7%);
     margin: 20px;
+
+    transition: box-shadow 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.cartao:hover{
+    box-shadow: 0.75rem 0.75rem hsl(0, 0%, 7%);
+}
+
+.cartao:hover h1{
+    color: hsl(47, 88%, 63%);
 }
 
 
@@ -55,6 +66,7 @@ a {
 .conteudo h1{
     margin: 0 0 12px 0;
     padding: 3px 0;
+    transition: color 200ms ease-in-out;
 }
 
 .conteudo .descricao {
@@ -75,3 +87,8 @@ a {
     height: 33px;
     margin-right: 10px;
 }
+
+.autor a:hover{
+    text-decoration: underline;
+}
+
